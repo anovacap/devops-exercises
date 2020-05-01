@@ -6,18 +6,20 @@ A summary of what you need to know for the exam can be found [here](https://codi
 
 <details>
 <summary>What types of Cloud Computing services are there?</summary><br><b>
-
-IAAS
-PAAS
-SAAS
+Private, Public, Hybrid and Community
+Private - Highest security and control
+Public - AWS
+Hybrid - AWS  and on prem
+Community -  Shared resources between organizations
 </b></details>
 
 <details>
 <summary>Explain each of the following and give an example:
-
-  * IAAS
-  * PAAS
-  * SAAS</summary><br><b>
+[IAAS, PAAS, SAAS](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
+  * IAAS (Infrastructure As A Service) = AWS EC2, GCP, Azure - Cloud providers that provide virtualized compute resources. User manage  O/S, Runtime, middleware, data.
+  * PAAS (Platform As A Service) = AWS Elastic BeanStalk   - Cloud providers host, manage and offer the entire infrastructure, as well as applications, for users. Manages runtime, middleware, OS, virtulization. (runtime = software instructions that are executed when your program is run that you DID NOT write)
+User manages Application and Data.
+  * SAAS (Software As A Service) = Google Apps, Dropbox, Salesforce - Everything is managed by the provider.</summary><br><b>
 </b></details>
 
 <details>
@@ -169,14 +171,14 @@ More on this subject [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/
 </b></details>
 
 #### AWS Storage
- 
+
 <details>
 <summary>Explain what is AWS S3?</summary><br><b>
 
 S3 stands for 3 S, Simple Storage Service.
 S3 is a object storage service which is fast, scalable and durable. S3 enables customers to upload, download or store any file or object that is up to 5 TB in size.
 
-More on S3 [here](https://aws.amazon.com/s3) 
+More on S3 [here](https://aws.amazon.com/s3)
 </b></details>
 
 <details>
@@ -224,7 +226,7 @@ Each object has a storage class assigned to, affecting its availability and dura
 Storage classes offered today:
   * Standard:
     * Used for general, all-purpose storage (mostly storage that needs to be accessed frequently)
-    * The most expensive storage class 
+    * The most expensive storage class
     * 11x9% durability
     * 2x9% availability
     * Default storage class
@@ -239,7 +241,7 @@ Storage classes offered today:
     * Less expensive than Standard and Standard-IA storage classes
     * 2x9% durability
     * 99.50% availability
-    
+
   * Intelligent-Tiering:
     * Long-lived data with changing or unknown access patterns. Basically, In this class the data automatically moves to the class most suitable for you based on usage patterns
     * Price depends on the used class
@@ -250,7 +252,7 @@ Storage classes offered today:
   * Glacier Deep Archive: Archive data that rarely, if ever, needs to be accessed with retrieval times in hours
   * Both Glacier and Glacier Deep Archive are:
     * The most cheap storage classes
-    * have 9x9% durability 
+    * have 9x9% durability
 
 More on storage classes [here](https://aws.amazon.com/s3/storage-classes)
 
