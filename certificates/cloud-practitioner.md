@@ -16,9 +16,11 @@ Community -  Shared resources between organizations
 <details>
 <summary>Explain each of the following and give an example:
 [IAAS, PAAS, SAAS](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
+
   * IAAS (Infrastructure As A Service) = AWS EC2, GCP, Azure - Cloud providers that provide virtualized compute resources. User manage  O/S, Runtime, middleware, data.
-  * PAAS (Platform As A Service) = AWS Elastic BeanStalk   - Cloud providers host, manage and offer the entire infrastructure, as well as applications, for users. Manages runtime, middleware, OS, virtulization. (runtime = software instructions that are executed when your program is run that you DID NOT write)
-User manages Application and Data.
+
+  * PAAS (Platform As A Service) = AWS Elastic BeanStalk   - Cloud providers host, manage and offer the entire infrastructure, as well as applications, for users. Manages runtime, middleware, OS, virtulization. (runtime = software instructions that are executed when your program is run that you DID NOT write) User manages Application and Data.
+
   * SAAS (Software As A Service) = Google Apps, Dropbox, Salesforce - Everything is managed by the provider.</summary><br><b>
 </b></details>
 
