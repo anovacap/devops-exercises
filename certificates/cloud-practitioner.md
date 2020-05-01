@@ -5,13 +5,13 @@ A summary of what you need to know for the exam can be found [here](https://codi
 #### Cloud 101
 
 <details>
-<summary>What types of Cloud Computing services are there?</summary><br><b>
+<summary>What types of Cloud Computing services are there?</summary><br>
 Private, Public, Hybrid and Community
 Private - Highest security and control
 Public - AWS
 Hybrid - AWS  and on prem
 Community -  Shared resources between organizations
-</b></details>
+</details>
 
 <details>
 <summary>Explain each of the following and give an example:
