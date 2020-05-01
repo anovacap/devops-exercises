@@ -13,12 +13,11 @@ Private - Highest security and control
 Public - AWS
 
 Hybrid - AWS  and on prem
-
 Community -  Shared resources between organizations
 </details>
 
 <details>
-<summary>Explain each of the following and give an example:
+<summary>Explain each of the following and give an example:</summary><br>
 
 https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/
 
@@ -26,7 +25,7 @@ https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-c
 
   * PAAS (Platform As A Service) = AWS Elastic BeanStalk   - Cloud providers host, manage and offer the entire infrastructure, as well as applications, for users. Manages runtime, middleware, OS, virtulization. (runtime = software instructions that are executed when your program is run that you DID NOT write) User manages Application and Data.
 
-  * SAAS (Software As A Service) = Google Apps, Dropbox, Salesforce - Everything is managed by the provider.</summary><br><b>
+  * SAAS (Software As A Service) = Google Apps, Dropbox, Salesforce - Everything is managed by the provider.</
 </b></details>
 
 <details>
